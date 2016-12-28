@@ -38,3 +38,23 @@ cooking watch -p
 ```
 cooking build -p
 ```
+
+
+### 开发目录说明
+
+src --开发目录
+
+​	+components 自定义组件
+
+​	+pages 页面存放，文件夹名对应页面名字
+
+​	+assets 静态资源文件，如公用的样式和字体文件以及图片
+
+举个栗子：
+
+```
+pages
+  + index
+  	index.js   //页面初始化
+  	app.vue    //页面逻辑，包括tempalte,script,style
+```
