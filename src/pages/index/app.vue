@@ -11,10 +11,10 @@
 import Vinput from 'components/vinput.vue';
 
 export default {
-	components:{
-		Vinput
-	}
-}	
+  components:{
+    Vinput
+  }
+};
 </script>
 <style>
 	h1{
