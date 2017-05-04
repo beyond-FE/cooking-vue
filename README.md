@@ -1,16 +1,29 @@
+<<<<<<< HEAD
 ## 基于cooking生成的Vuejs脚手架
 
 ### step 1 安装cooking命令行工具
+=======
+##基于cooking生成的Vuejs脚手架
+
+###step 1 安装cooking命令行工具
+>>>>>>> 354da0bd487aa12c3146f2d575cafb2e0823830a
 
 ```
 npm install cooking-cli -g
 ```
 
 
+<<<<<<< HEAD
 ### step 2
 
 ```
 npm install
+=======
+###step 2
+
+```
+npm install 
+>>>>>>> 354da0bd487aa12c3146f2d575cafb2e0823830a
 ```
 
 ps:推荐用cnpm
@@ -50,12 +63,17 @@ src --开发目录
 
 ​	+assets 静态资源文件，如公用的样式和字体文件以及图片
 
+<<<<<<< HEAD
+=======
+举个栗子：
+>>>>>>> 354da0bd487aa12c3146f2d575cafb2e0823830a
 
 ```
 pages
   + index
   	index.js   //页面初始化
   	app.vue    //页面逻辑，包括tempalte,script,style
+<<<<<<< HEAD
 
 ```
 
@@ -63,3 +81,6 @@ pages
 
 1. 弃用vue-resource，改用axios请求接口
 2. 增加【pre-commit】，未通过eslint检测不允许提交代码
+=======
+```
+>>>>>>> 354da0bd487aa12c3146f2d575cafb2e0823830a
